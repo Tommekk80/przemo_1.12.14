@@ -27,11 +27,13 @@
 		}
 	})
 
-var sb_wyslij = document.getElementById("sb_mess");
-sb_wyslij.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
-   event.preventDefault();
-   document.getElementById("sb_enter").click();
-  }
+	var sb_wyslij = document.getElementById("sb_mess");
+	sb_wyslij.addEventListener("keyup", function(event)
+	{
+		if (event.keyCode === 13)
+		{
+			event.preventDefault();
+			document.getElementById("sb_enter").click();
+	}
 });
 </script>
